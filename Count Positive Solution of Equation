@@ -1,0 +1,59 @@
+Solution of Equation
+Let's solve a linear equation problem using recursion. You are given a number 
+n
+ and a value 
+z
+. Equation is such that x1 + x2 + x3+...+xn = z, where x1, x2, x3, ..xn can take several non negative integral values such that the sum is equal to z. 
+
+  Example:
+  n = 3, z = 1
+  x1 + x2 + x3 = 1
+  Number of possible solution are : 
+  (0 0 1), (0 1 0), (1 0 0)
+  Total number of possible solutions are 3
+
+Your task is to find total number of solutions for given 
+n
+ and 
+z
+.
+
+Input
+First line contains an integer T, no of test cases. Then follows 
+T
+ test cases. Each test case consists of two variables 
+n
+ and 
+z
+.
+
+Output
+Print 
+T
+ values, count of possible solutions for each test case.
+
+Constraints
+1
+<=
+T
+<=
+10
+
+ 
+1
+<=
+n
+,
+z
+<=
+15
+
+Example
+Input:
+2
+3 1
+4 2
+
+Output:
+3
+10
